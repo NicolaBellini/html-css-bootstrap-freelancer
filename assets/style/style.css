@@ -15,11 +15,16 @@
   border: 1px solid indigo;
 }
 
+.debug2{
+  background-color: rgba(11, 184, 86, 0.309);
+  border: 1px solid rgb(130, 0, 0);
+}
+
 header{
   height: 90px;
   background-color: var(--bg_header);
 }
 
 main section{
-  height: 200px;
+  height: 400px;
 }
