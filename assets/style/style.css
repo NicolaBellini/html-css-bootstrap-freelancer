@@ -20,6 +20,6 @@ header{
   background-color: var(--bg_header);
 }
 
-main section:nth-child(1){
-  height: 100px;
+main section{
+  height: 200px;
 }
