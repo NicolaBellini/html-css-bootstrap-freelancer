@@ -28,3 +28,17 @@ header{
 main section{
   height: 400px;
 }
+
+.footer-top{
+  height: 200px;
+  background-color: var(--bg_footer-top);
+}
+
+.footer-down{
+  height: 100px;
+  background-color: var(--bg_header);
+}
+
+input{
+  width: 90%;
+}
