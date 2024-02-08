@@ -1,0 +1,25 @@
+:root{
+  --bg_header:#2c3e50;
+  --bg_jumbo-button:#1abc9c;
+  --bg_footer-top:#3a546d;
+  --bg_card1:#ba4b63;
+  --bg_card2:#1ea4b6;
+  --bg_card3:#140f0f;
+  --bg_card4:#1c83c1;
+  --bg_card5:#0e38b5;
+  --bg_card6:#ccb2a3;
+}
+
+.debug{
+  background-color: rgba(184, 135, 11, 0.309);
+  border: 1px solid indigo;
+}
+
+header{
+  height: 90px;
+  background-color: var(--bg_header);
+}
+
+main section:nth-child(1){
+  height: 100px;
+}
