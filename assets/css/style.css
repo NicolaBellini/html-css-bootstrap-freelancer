@@ -38,6 +38,16 @@ header{
   background-color: var(--bg_header);
 }
 
+/* my utilities */
+.btn{
+  background-color: var(--bg_jumbo-button);
+  border-color: var(--white);
+}
+
+.big_mb{
+  margin-bottom: 100px;
+}
+
 
 
 .jumbo{
@@ -71,9 +81,7 @@ header{
   background-color: black;
 }
 
-.big_mb{
-  margin-bottom: 100px;
-}
+
 
 
 .footer-top{
