@@ -31,8 +31,10 @@ i{
 }
 
 h3{
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
+
+
 
 header{
   /* height: 100px; */
@@ -130,23 +132,50 @@ input{
   
 } 
 
-/* .my_button {
-  background-color: #1abc9c;
-  border: none;
-} */
-
-/* .my_button:hover {
-  background-color: #137964;
-} */
-
 
 
 .footer-top{
-  height: 200px;
   background-color: var(--bg_footer-top);
 }
 
+.footer-top h2{
+  font-size: 1rem;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  background-color: var(--bg_footer-top);
+  border: 1px solid var(--white);
+}
+
+.icon i{
+  font-size: 1.1rem;
+}
+
+.footer-top span{
+  color: var(--bg_jumbo-button);
+}
+
+.icon-group{
+  margin: 0 20px ;
+}
+
 .footer-down{
-  height: 100px;
+
   background-color: var(--bg_header);
+}
+
+
+@media(min-width:768px){
+  h3{
+    font-size: 1.3rem;
+  }
 }
