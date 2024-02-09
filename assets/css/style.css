@@ -8,6 +8,7 @@
   --bg_card4:#1c83c1;
   --bg_card5:#0e38b5;
   --bg_card6:#ccb2a3;
+  --white: rgb(255, 255, 255);
 }
 
 .debug{
@@ -20,14 +21,60 @@
   border: 1px solid rgb(130, 0, 0);
 }
 
+img{
+  max-width: 100%;
+}
+
+i{
+  font-size: 1.8rem;
+}
+
+h3{
+  font-size: 1.3rem;
+}
+
 header{
-  /* height: 90px; */
+  /* height: 100px; */
   background-color: var(--bg_header);
 }
 
-main section{
-  height: 400px;
+
+
+.jumbo{
+  margin-top: 90px;
+  background-color: var(--bg_jumbo-button);
 }
+
+.jumbo img{
+  max-width: 300px;
+}
+
+.star .line{
+  width: 35%;
+  height: 3px;
+  background-color: var(--white);
+}
+
+.col-star{
+  width: 20%;
+}
+
+
+
+/* fine jumbo */
+
+.portfolio img{
+  border-radius: 20px;
+}
+
+.portfolio .line{
+  background-color: black;
+}
+
+.big_mb{
+  margin-bottom: 100px;
+}
+
 
 .footer-top{
   height: 200px;
