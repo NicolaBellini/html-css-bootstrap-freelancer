@@ -44,17 +44,17 @@
   <main>
     <!-- jumbo -->
     <section class="jumbo  d-flex justify-content-center text-white ">
-      <div class="row w-100 w-md-75 h-100 p-0 d-flex justify-content-center debug">
+      <div class="row w-100 w-md-75 h-100 p-0 d-flex justify-content-center ">
 
         <div class="col-12  h-100 p-4 col-md-12 col-xl-7 d-flex align-items-center  flex-column  ">
           <div class="w-75 d-flex justify-content-center ">
             <img src="assets/img/avatar.svg" alt="" class="img-fluid ">
           </div>
-          <h1 class="fw-semibold  ">START BOOTSTRAP</h1>
+          <h1 class="fw-semibold mb-3  ">START BOOTSTRAP</h1>
 
           <!-- star -->
           
-            <div class="star w-50 d-flex justify-content-between  align-items-center">
+            <div class="star w-50 d-flex justify-content-between  align-items-center mb-4 ">
               <div class="col line "></div>
               <div class="col-star d-flex justify-content-center  ">
                 <i class="fa-solid fa-star"></i>
@@ -86,7 +86,7 @@
         <div class="col line"></div>
       </div>
 
-      <div class="container-md h-75  d-flex flex-wrap">
+      <div class="container-md h-75  d-flex flex-wrap big_mb">
         <div class="col-12 h-25 col-md-6 col-xl-4 p-3 ">
           <img src="assets/img/cabin.png" alt="" class="">
         </div>
@@ -96,13 +96,13 @@
         <div class="col-12 h-25 col-md-6 col-xl-4 p-3">
           <img src="assets/img/circus.png" alt="">
         </div>
-        <div class="col-12 h-25 col-md-6 col-xl-4 p-3 big_mb ">
+        <div class="col-12 h-25 col-md-6 col-xl-4 p-3  ">
           <img src="assets/img/game.png" alt="">
         </div>
-        <div class="col-12 h-25 col-md-6 col-xl-4 p-3 big_mb ">
+        <div class="col-12 h-25 col-md-6 col-xl-4 p-3  ">
           <img src="assets/img/safe.png" alt="">
         </div>
-        <div class="col-12 h-25 col-md-6 col-xl-4 p-3 big_mb ">
+        <div class="col-12 h-25 col-md-6 col-xl-4 p-3  ">
           <img src="assets/img/submarine.png" alt="">
         </div>
       </div>
@@ -113,30 +113,54 @@
 <!-- about -->
     <section class="about container-fluid text-white debug">
       <div class="col">
-        <h1 class="text-center mt-3 ">about</h1>
+        <h2 class="text-center mt-5 mb-3 fw-semibold ">ABOUT</h2>
       </div>
-      <div class="container-md h-75 d-flex flex-column align-items-center flex-md-row justify-content-md-center  debug ">
-        <div class="col-9 col-md-5 h-50  debug2">Freelance in a free Bootstrap theme created by Start Bootstrap. The dowload includes complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy costommization</div>
-        <div class="col-9 col-md-5 h-50 debug2">Whether you' re a student looking to schowcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this themeplate is the perfect starting point!
+      <div class="d-flex justify-content-center mb-4 ">
+        <div class="star w-50 d-flex justify-content-between  align-items-center">
+          <div class="col line "></div>
+          <div class="col-star d-flex justify-content-center  ">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="col line"></div>
+        </div>
+      </div>
+      <div class="container-md h-75 d-flex flex-column align-items-center flex-md-row justify-content-md-center mb-5">
+        <div class="col-9 col-md-5 h-50 p-3">Freelance in a free Bootstrap theme created by Start Bootstrap. The dowload includes complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy costommization</div>
+        <div class="col-9 col-md-5 h-50 p-3">Whether you' re a student looking to schowcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this themeplate is the perfect starting point!
         </div>
         
       </div>
-      <div class="container-md d-flex justify-content-center ">
-        <button class="btn"> download</button>
+      <div class="container-md d-flex justify-content-center mb-4 mb-md-5 ">
+        <button class="btn text-white"><i class="fa-solid fa-download"></i> download</button>
       </div>
     </section>
+
+
     <!-- contact me -->
-    <section class="container-fluid debug ">
-      <h1 class="text-center text-white m-4 ">contact me</h1>
-      <div class="container-md h-75 d-flex align-items-center justify-content-between  flex-column  debug">
-        <form action="" class="col-8 h-75 col-md-10 debug">
-          <input type="text" class="d-block ">
-          <input type="text"  class="d-block ">
-          <input type="text"  class="d-block ">
-        </form>
-        <div class="container-md col-8 col-md-10 debug">
-          <button>invia</button>
+
+
+
+    <section class="contact-me container-fluid">
+      <h2 class="text-center m-4 ">CONTACT ME </h2>
+      
+      <div class="d-flex justify-content-center mb-4 ">
+        <div class="star w-50 d-flex justify-content-between  align-items-center">
+          <div class="col line "></div>
+          <div class="col-star d-flex justify-content-center  ">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="col line"></div>
         </div>
+      </div>
+
+      <div class="my_container">
+        <form action="#" class="my_form">
+          <input type="text" class="form-control pb-2" placeholder="Name">
+          <input type="email" class="form-control pb-2" placeholder="Email Address">
+          <input type="text" class="form-control pb-2" placeholder="Phone Number">
+          <textarea class="form-control" placeholder="Message" id="floatingTextarea pb-2" rows="5"></textarea>
+          <button type="submit" class="btn my-3">Send</button>
+        </form>
       </div>
     </section>
 

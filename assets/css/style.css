@@ -1,6 +1,7 @@
 :root{
   --bg_header:#2c3e50;
   --bg_jumbo-button:#1abc9c;
+  --bg_jumbo-button-hover:#1d927a;
   --bg_footer-top:#3a546d;
   --bg_card1:#ba4b63;
   --bg_card2:#1ea4b6;
@@ -42,6 +43,13 @@ header{
 .btn{
   background-color: var(--bg_jumbo-button);
   border-color: var(--white);
+  color: var(--white);
+}
+
+.btn:hover{
+  background-color: var(--bg_jumbo-button-hover);
+  color: var(--white);
+  border-color: var(--white);
 }
 
 .big_mb{
@@ -77,10 +85,59 @@ header{
   border-radius: 20px;
 }
 
-.portfolio .line{
+.portfolio .line,
+.contact-me .line{
   background-color: black;
 }
 
+.about{
+  background-color: var(--bg_jumbo-button);
+}
+
+.about h2{
+  font-size: 3rem;
+}
+
+.about .btn i{
+  font-size: 1rem
+}
+
+input{
+  width: 90%;
+}
+
+.my_container {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.my_form input,
+.my_form textarea {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+
+.my_form input:focus,
+.my_form textarea:focus {
+  box-shadow: none;
+}
+
+.my_form input::placeholder,
+.my_form textarea::placeholder {
+  color: #2b3d4f;
+  
+} 
+
+/* .my_button {
+  background-color: #1abc9c;
+  border: none;
+} */
+
+/* .my_button:hover {
+  background-color: #137964;
+} */
 
 
 
@@ -92,8 +149,4 @@ header{
 .footer-down{
   height: 100px;
   background-color: var(--bg_header);
-}
-
-input{
-  width: 90%;
 }
