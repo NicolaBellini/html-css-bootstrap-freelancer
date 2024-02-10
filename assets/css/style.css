@@ -83,14 +83,87 @@ header{
 
 /* fine jumbo */
 
-.portfolio img{
-  border-radius: 20px;
+.portfolio{
+  margin-bottom: 100px;
 }
 
 .portfolio .line,
 .contact-me .line{
   background-color: black;
 }
+
+.portfolio .star{
+  margin: 20px auto;
+
+}
+
+.portfolio .cust-card{
+  background-color: var(--bg_card1);
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.portfolio .cust-card img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.plus-hidden{
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.5rem;
+  border-radius: 20px;
+  background-color:#1abc9c69;
+  vertical-align: middle;
+}
+
+.plus-hidden i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.5rem;
+}
+
+.col:hover .plus-hidden{
+  display: block;
+}
+
+/* .work img:hover{
+  z-index: 1;
+  background-color: #1abc9c61;
+} */
+
+/* .overlay{
+  display: none;
+  position: absolute;
+  width: 95%;
+  padding:  86px 140px ;
+  border-radius: 20px;
+  background-color: #1abc9c7d;
+}
+
+.overlay i{
+  color: rgba(255, 255, 255, 0.548);
+  font-size: 4.5rem;
+}
+
+.work:hover .overlay{
+  display: block;
+  
+}
+
+.work{
+  position: relative;
+} */
 
 .about{
   background-color: var(--bg_jumbo-button);
